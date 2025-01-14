@@ -6,6 +6,6 @@ WORKDIR /usr/share/nginx/html
 
 COPY  . /usr/share/nginx/html/
 
-EXPOSE 9000
+EXPOSE 8070
 
 CMD ["nginx", "-g", "daemon off;", "-c", "/etc/nginx/nginx.conf"]
